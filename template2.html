@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en-EU">
+  <head>
+    <style>
+      header {
+       padding: 30px;
+       font-size: 16px;
+       height: 150px;
+       background-color: rgb(250 255 250); /* rgb(12 150 150)*/
+       color: white;
+       text-align: center;
+      }
+      nav {
+        display: inline-block;
+        padding: 10px 3px;
+        background-color: black; /* rgb(50 180 100);*/
+        width: 98.2%;
+        margin-bottom: 20px;
+      }
+      nav a {
+       color: white;
+        text-decoration: none;
+        padding: 12px 18px;
+        font-family: times;
+        font-weight: bold;
+        font-size: 16.7px;
+      }
+      nav a:hover {
+        background-color: gold; 
+      
+      }
+      .mydiv {
+        
+        margin-top: 5px;
+        padding: 10px;
+      }
+        .mydiv1 {
+        
+        margin-top: 5px;
+        padding: 10px;
+      }
+        .mydiv2 {
+        
+        margin-top: 5px;
+        padding: 10px;
+      }
+      footer {
+       margin-top: 5px;
+       padding: 20px; 
+       background-color: black; /*rgb(12 150 150);*/ 
+       font-size: 18px;
+       
+       font-family: Times;
+      }
+      footer a {
+        text-decoration: none;
+        color: white;
+      }
+      footer a:hover {
+        color: white;
+        opacity: 0.8;
+      }
+      h2 {
+       text-align: center;
+      }
+      h1 {
+       border-top: 5px solid white;
+       border-bottom: 5px solid white;
+       width: 350px;
+       text-align: center;
+       background-color: gold;
+       padding: 5px;
+       margin-left: 28px;
+      }
+      @media screen and (min-width: 800px) {
+  header h1{
+    margin-left: 250px;
+    color: blue;
+        
+  }
+  img {
+    width: 60%;
+    padding: 3px;
+  }
+  p, img {
+    width: 57%;
+    border: 4px solid gold;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: lemon;
+  }
+  img {
+   background-color: rgb(100 210 255);
+   
+  }
+  /* thired image */
+  img#def {
+    width: 500px;
+  }
+  h2 {
+   text-align: left;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.button:hover {
+  background-color: black;
+  
+  font-family: lemon;
+  font-size: 16px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;  
+  padding: 14px 38px;
+  opacity: 0.8;
+}
+.button {
+  
+  padding: 14px 38px;
+  font-family: lemon;
+  font-size: 16px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border: 2px solid black;  
+  opacity: 0.9;
+}
+.button_txt:hover {
+  color: white;
+  opacity: 0.8;
+  
+  
+}
+    </style>
+  </head>
+  <body>
+   <header>
+     <br><br>
+      <div id="buttons">
+        <button class="button" type="button"><span class="button_txt">Login</span></button>
+        <button class="button" type="button">
+        <span class="button_txt">Start</span></button>        
+      </div>
+   </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+      <a href="#">Products</a>
+    </nav>
+    
+    <div class="mydiv">
+      <h2>About HTML & CSS</h2>
+      <div class="container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP086opUgXC-eFun8w1sasUVb-BjgbQHTMkwlvd6iXUndXKYS4sg" width="100%" height="250">
+      <p>We can learn from Udacity 
+        alot of good things <br>
+        You should start learning HTML5
+        and CSS to be Able to create your
+        own website, it's something cool
+        to have your own web site.</p>
+        </div>
+    </div>
+    
+     <div class="mydiv1">
+      <h2>About JavaScript</h2>
+      <div class="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQo0e0rsX5HvYXJihonPL1mkvmF8qaYSdInng1d7t_yavwvJS" width="100%" height="250">
+      <p>so what is javascript?<br>
+       Javascript is one of the most important langauges in the web it's like magic want who makes the website alive you can make web apps with it, or games or even desktop programres uses the JS,JavaScript and HTML DOM :  <code>GetElementById("id")</code></p>
+      </div>
+    </div>
+    
+    <div class="mydiv2">
+      <h2>About PHP & Node.JS</h2>
+      <div class="container">
+                <img id="def" src="https://spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2016/12/What-Is-Back-End-Development.png" width="100%" height="250">
+      
+      <p>when u create a website you need to host it in a webserver, but how u can to talk to this webserver and give him order to deal with requests, so you need a langauge can talk to the server backend is important</p>
+     </div> 
+    </div>
+   <footer>
+     <a href="mailto:mahmoud@example.com">Contact US</a>
+     <a href="#" style="float:right">Why Udacity</a>
+    </footer>
+  </body>
